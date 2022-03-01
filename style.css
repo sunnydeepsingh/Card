@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+  line-height: 2rem;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.main {
+  max-width: 500px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 30px #f9f9f9;
+  overflow: hidden;
+  transform: rotate(-5deg);
+  transition: transform 0.5s;
+}
+
+.main:hover {
+  transform: rotate(0);
+}
+
+article {
+  padding: 4rem 3rem;
+}
+
+.bottom {
+  background: rgb(116, 214, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 214, 144, 1) 42%,
+    rgba(180, 80, 40, 1) 86%
+  );
+  display: flex;
+  align-items: center;
+  height: 100px;
+  color: white;
+}
+.main:hover img {
+  transform: scale(1.15);
+}
+
+img {
+  margin: 1.5rem 1rem 1.5rem 3rem;
+  width: 5.5rem;
+  border-radius: 50px;
+  border: 5px solid white;
+}
